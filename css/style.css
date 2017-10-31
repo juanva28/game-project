@@ -1,0 +1,26 @@
+.intro{
+  width:1000px;
+  height: 650px;
+  background-image: url(../lib/portada.svg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  position: relative;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+.vanish{
+  display:none;
+}
+
+#nameCurrency{
+  position: absolute;
+  top: 370px;
+  left: 375px;
+  width: 250px;
+  text-align: center;
+  background-color: rgb(14, 18, 39);
+  border: 1px solid white;
+  color: rgb(20, 120, 0);
+  font-family: courier;
+  font-size: 18px;
+}

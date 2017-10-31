@@ -22,5 +22,5 @@ Player.prototype.rankingBottom = function(){
 };
 
 Player.prototype.value = function(){
-  return (coins[Math.floor(this.ranking)+1].value + coins[Math.floor(this.ranking)].value)/2;
+  return 1/((coins[Math.floor(this.ranking)+1].value + coins[Math.floor(this.ranking)].value)/2);
 };

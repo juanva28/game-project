@@ -18,8 +18,3 @@ Question.prototype.selectAnswer = function(clickedAnswer){
     return false;
   }
 };
-
-
-Question.prototype.deleteQuestion = function(index){
-  questions.slice(index);
-};

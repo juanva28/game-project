@@ -36,7 +36,8 @@ var coins = [
     { nombre: 'Libra Inglesa', value: 0.763},
     { nombre: 'Dinar Kuwait', value: 0.302},
     { nombre: 'Ethereum', value: 0.00321},
-    { nombre: 'Bitcoin', value: 0.000167}
+    { nombre: 'Bitcoin', value: 0.000167},
+    {nombre: 'WINNER', value: 0.00001}
 ];
 
 var questions = [
@@ -49,5 +50,5 @@ var questions = [
 {pregunta:"La economía mundial que creció más durante 2016 (con un +10.5% del PIB) fue:", respuesta:["Etiopía", "China", "Tanzania"]},
 {pregunta:"Cual de estas monedas vale más?", respuesta:["Peso Colombiano", "Won Koreano", "Rupi Indonés" ]},
 {pregunta:"Cual de estas monedas es más barata?", respuesta:["Rublo Ruso", "Peso Argentino", "Ringgit Malasio"]},
-{pregunta:"El valor de que moneda mundial se depreció un 59% en 2016", respuesta:["Libra Egipcia", "Rupi Indonéa", "Zloty Polaco" ]},
+{pregunta:"El valor de que moneda mundial se depreció un 59% en 2016?", respuesta:["Libra Egipcia", "Rupi Indonéa", "Zloty Polaco" ]},
  ];
