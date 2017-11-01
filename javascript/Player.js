@@ -1,8 +1,5 @@
 var Player = function(){
 this.ranking = 14;
-// this.rankingTop = coins[Math.floor(this.ranking)+1].nombre;
-// this.rankingBottom = coins[Math.floor(this.ranking)].nombre;
-// this.value = (coins[Math.floor(this.ranking)+1].value + coins[Math.floor(this.ranking)].value)/2;
 };
 
 Player.prototype.rankUp = function(){
@@ -14,13 +11,19 @@ Player.prototype.rankDown= function(){
 };
 
 Player.prototype.rankingTop = function(){
-  return coins[Math.floor(this.ranking)+1].nombre;
+  return coins[Math.ceil(this.ranking)+1].nombre;
 };
 
 Player.prototype.rankingBottom = function(){
-  return coins[Math.floor(this.ranking)].nombre;
+  return coins[Math.ceil(this.ranking)].nombre;
 };
 
 Player.prototype.value = function(){
-  return 1/((coins[Math.floor(this.ranking)+1].value + coins[Math.floor(this.ranking)].value)/2);
+  return (1/((coins[Math.ceil(this.ranking)+1].value + coins[Math.ceil(this.ranking)].value)/2)).toFixed(4);
+};
+Player.prototype.topFlag =function(){
+  return coins[Math.ceil(this.ranking)+1].img;
+};
+Player.prototype.bottomFlag =function(){
+  return coins[Math.ceil(this.ranking)].img;
 };

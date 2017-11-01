@@ -19,7 +19,7 @@
 }
 
 .pregunta{
-  margin-left: 80px;
+  margin-left: 60px;
   margin-top: 90px;
   width:400px;
   height:200px;
@@ -45,7 +45,7 @@
 .btn{
   width: 400px;
   text-align: center;
-  margin-left: 80px;
+  margin-left: 60px;
   margin-top: 20px;
   background-color: rgb(0, 183, 173);
   height: 50px;
@@ -55,30 +55,143 @@
   letter-spacing: 2px;
 }
 #contador{
-  margin-top: 190px;
+  margin-top: 205px;
   margin-left: 40px;
   display: inline-block;
+  position: relative;
 }
 .nivel{
-  height: 6px;
+  height: 5.5px;
   margin: 2px;
   width: 150px;
-  background-color: rgb(0, 183, 173);
-}
-.nivel2{
-  height: 6px;
-  margin: 2px;
-  width: 150px;
-  background-color: yellow;
+  background-color: rgb(255, 229, 117);
 }
 
 .status{
   display: inline-block;
-  float: right;
-  border: 2px solid green;
-  width: 200px;
-  height: 250px;
-  margin-left: 50px;
+  border: 4px solid grey;
+  border-radius: 8px;
+  width: 400px;
+  height: 90px;
   padding: 10px;
   background-color: white;
+  position: absolute;
+  top: 90px;
+  right: 40px;
+}
+.logo{
+  width: 60px;
+  height: 60px;
+  float: left;
+  margin-top: 4px;
+  margin-left: 6px;
+  display: inline-block;
+}
+
+.naming{
+  position: absolute;
+  left: 75px;
+  margin-top: 5px;
+  text-transform:uppercase;
+  display: inline-block;
+  width: 140px;
+  height: 70px;
+  text-align: center;
+}
+.displayValueUP{
+  font-family: digital;
+  position: absolute;
+  left: 210px;
+  bottom: 15px;
+  margin-left: 10px;
+  display: inline-block;
+  color: green;
+}
+
+h1{
+  font-size: 50px;
+  margin: 0px;
+  letter-spacing: 2px;
+}
+h6{
+  margin-left: 20px;
+}
+.bitcoin {
+  position: absolute;
+  left: 210px;
+  bottom: 290px;
+  color: grey;
+  font-family: courier;
+  width: 110px;
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+
+#top-marker {
+  position: absolute;
+  bottom: 90px;
+  width: 300px;
+  display: inline;
+}
+
+#top{
+  color: white;
+  font-size: 18px;
+  font-family: courier;
+}
+#bot{
+  color: white;
+  font-size: 18px;
+  font-family: courier;
+}
+.rial{
+  position: absolute;
+  left: 213px;
+  bottom: 0px;
+  color: grey;
+  font-family: courier;
+  width: 130px;
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+
+#name{
+  font-size: 27px;
+  font-family: clarendon;
+  color: black;
+  text-align: center;
+  font-weight: 500;
+}
+h4{
+  margin: 0;
+}
+#symbol{
+  color: rgb(0, 102, 169);
+  width: 40px;
+  height: 40px;
+}
+.minilogo{
+  position: absolute;
+  top: 630px;
+  width: 170px;
+  height: auto;
+  left: 600px;
+}
+
+.flag{
+  width: 20px;
+  height: auto;
+}
+#counter{
+  color: grey;
+  font-size: 25px;
+  position: absolute;
+  display: block;
+  top: 560px;
+  left: 140px;
+  font-family: courier;
+}
+#countDown{
+  color: rgb(0, 183, 173);
+  font-family: courier;
 }

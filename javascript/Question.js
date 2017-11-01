@@ -6,7 +6,6 @@ var Question = function(index){
 
 Question.prototype.shuffleAnswers = function(index){
   var shuffleAns = _.shuffle(questions[index].respuesta);
-  console.log(shuffleAns);
   this.respuestas = shuffleAns;
 };
 
