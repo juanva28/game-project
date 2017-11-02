@@ -1,9 +1,18 @@
+
+var speedPersonaje = 0.5;
+var scientist = new Personaje(100, 470, speedPersonaje);
+var fps = 60;
+
+var interval = setInterval(function() {
+  scientist.updatePosition();
+}, 1000/fps);
+
 var newGame = {
   player1: new Player(),
   indexRandom: 0,
   questionGenerated: '',
   questionSelected: [],
-  triesLeft: questions.length-1
+  triesLeft: questions.length-1,
 };
 
 function selectRandomNumber() {
@@ -85,6 +94,7 @@ $('.btn').click(function() {
   $('#value').html(newGame.player1.value());
   $('#top').html(newGame.player1.rankingTop());
   $('#bot').html(newGame.player1.rankingBottom());
+  scientist.stopAndTalk();
   questionFactory();
   if (newGame.questionSelected.length >= questions.length) {
     alert("YOU LOST!");

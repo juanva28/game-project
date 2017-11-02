@@ -11,14 +11,12 @@
 </head>
 
 <body>
-
   <div class="intro">
     <input id="nameCurrency" class="form-control" type="text" placeholder="Introduce Name" name="">
   </div>
 
   <div class="gameIntro row">
-    <img src="minilogo.png" class="minilogo">
-    <div class="col-sm-6 section1">
+    <div id="padre" class="col-sm-6 section1">
       <div class="pregunta">
         <p id="question">"PREGUNTA"
           <p>
@@ -28,6 +26,7 @@
         <button id="2" type="button" class="btn" name="button">"RESPUESTA 2"</button>
         <button id="3" type="button" class="btn" name="button">"RESPUESTA 3"</button>
       </div>
+      <div id="scientist" class="economistRight"></div>
     </div>
     <div class="col-sm-6">
       <div id="contador">
@@ -102,6 +101,7 @@
       <script src="javascript/Player.js"></script>
       <script src="javascript/Question.js"></script>
       <script src="javascript/contador.js"></script>
+      <script src="javascript/Personaje.js"></script>
       <script src="javascript/main.js"></script>
 </body>
 

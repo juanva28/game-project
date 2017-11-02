@@ -2,6 +2,7 @@
 
 .gameIntro{
   display: none;
+  position: relative;
 }
 .game{
   display: block;
@@ -194,4 +195,35 @@ h4{
 #countDown{
   color: rgb(0, 183, 173);
   font-family: courier;
+}
+
+.economistRight{
+  width: 190px;
+  height: 152px;
+  background-image: url(../lib/Right.gif);
+  background-size: 100%;
+  background-repeat: no-repeat
+}
+
+.economistleft{
+  width: 190px;
+  height: 152px;
+  background-image: url(../lib/Left.gif);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.economistLeftStill{
+  width: 190px;
+  height: 152px;
+  background-image: url(../lib/staticLeft.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+
+}
+.economistRightStill{
+  width: 190px;
+  height: 152px;
+  background-image: url(../lib/staticRight.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
