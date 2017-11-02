@@ -66,15 +66,17 @@ function rankUpdate(selectAnswer) {
   if (newGame.questionGenerated.selectAnswer(selectAnswer) == true) {
     newGame.player1.rankUp();
     newPosition = positionValue + 7.5;
+    $('#top-marker').css("bottom", newPosition+'px');
     $('.displayValueUP').css("color", "green");
   } else {
     newGame.player1.rankDown();
     if(newGame.player1.ranking % 1 == 0){
       newPosition = positionValue - 7.5;
+      $('#top-marker').css("bottom", newPosition+'px');
     }
     $('.displayValueUP').css("color", "red");
   }
-  $('#top-marker').css("bottom", newPosition+'px');
+  // $('#top-marker').css("bottom", newPosition+'px');
 }
 
 
