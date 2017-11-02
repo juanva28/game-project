@@ -16,7 +16,7 @@ var newGame = {
 };
 
 function selectRandomNumber() {
-  var random = Math.floor(Math.random() * (10 - 0)) + 0;
+  var random = Math.floor(Math.random() * (questions.length - 0)) + 0;
   if (newGame.questionSelected.indexOf(random) !== -1) {
     selectRandomNumber();
   } else {
@@ -86,7 +86,7 @@ function rankUpdate(selectAnswer) {
       $('#top-marker').css("bottom", newPosition+'px');
     }
     $('.displayValueUP').css("color", "red");
-    $('#scientist .textLeft').html("Mmm... it was "+questions[newGame.indexRandom].respuesta[0]);
+    $('#scientist .textLeft').html("Oh no... it was "+questions[newGame.indexRandom].respuesta[0]);
     $('#scientist .textRight').html("Mmm... it was "+questions[newGame.indexRandom].respuesta[0]);
   }
 }

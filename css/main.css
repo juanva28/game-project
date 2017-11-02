@@ -1,4 +1,11 @@
 
+body{
+background-color: rgb(190, 192,194);
+ margin: 0px;
+background-size: 100%;
+
+
+}
 
 .gameIntro{
   display: none;
@@ -9,7 +16,7 @@
   width:1000px;
   height: 650px;
   background-color: rgb(14, 18, 39);
-  margin-left: 50px;
+  margin-left: 220px;
   margin-top: 50px;
   border: 9px solid grey;
   border-radius: 10px;
@@ -251,7 +258,7 @@ h4{
   font-size: 18px;
   position: absolute;
   top: -80px;
-  left: -87px;
+  left: -83px;
   font-weight: bolder;
   color: rgb(20, 120, 0);
   font-family: courier;
@@ -263,11 +270,11 @@ h4{
   font-family: courier;
   text-align: center;
   font-weight: bolder;
-  font-size: 18px;
-  width: 200px;
+  font-size: 16px;
+  width: 150px;
   position: absolute;
   top: -80px;
-  left:110px;
+  left:135px;
   z-index: 200;
   display: none;
 }
