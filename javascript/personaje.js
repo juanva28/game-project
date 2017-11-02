@@ -48,18 +48,26 @@ Personaje.prototype.stopAndTalk = function(){
   if(this.direction ==1){
     this.element.removeClass('economistleft');
     this.element.addClass('economistLeftStill');
+    $('#scientist .left').css('display', 'inherit');
+    $('#scientist .textLeft').css('display', 'inherit');
   }else{
     this.element.removeClass('economistRight');
     this.element.addClass('economistRightStill');
+    $('#scientist .right').css('display', 'inherit');
+    $('#scientist .textRight').css('display', 'inherit');
   }
   var that = this;
   setTimeout(function(){that.isMoving = !that.isMoving;
     if(that.direction==1){
       that.element.removeClass('economistLeftStill');
       that.element.addClass('economistleft');
+      $('#scientist .left').css('display', 'none');
+      $('#scientist .textLeft').css('display', 'none');
     }else{
       that.element.removeClass('economistRightStill');
       that.element.addClass('economistRight');
+      $('#scientist .right').css('display', 'none');
+      $('#scientist .textRight').css('display', 'none');
     }
-}, 4000);
+}, 3000);
 };

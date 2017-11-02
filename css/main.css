@@ -60,12 +60,14 @@
   margin-left: 40px;
   display: inline-block;
   position: relative;
+  z-index: 90;
 }
 .nivel{
   height: 5.5px;
   margin: 2px;
   width: 150px;
   background-color: rgb(255, 229, 117);
+  z-index: 80;
 }
 
 .status{
@@ -226,4 +228,46 @@ h4{
   background-image: url(../lib/staticRight.png);
   background-size: 100%;
   background-repeat: no-repeat;
+}
+
+#scientist .left {
+  width: 100%;
+  position: absolute;
+  top: -80%;
+  left: -50%;
+  display: none;
+}
+
+#scientist .right {
+  width: 100%;
+  position: absolute;
+  top: -80%;
+  right: -60%;
+  display: none;
+  z-index: 100;
+}
+.textLeft{
+  color: purple;
+  font-size: 18px;
+  position: absolute;
+  top: -80px;
+  left: -87px;
+  font-weight: bolder;
+  color: rgb(20, 120, 0);
+  font-family: courier;
+  display: none;
+  width: 150px;
+}
+.textRight{
+  color: rgb(20, 120, 0);
+  font-family: courier;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 18px;
+  width: 200px;
+  position: absolute;
+  top: -80px;
+  left:110px;
+  z-index: 200;
+  display: none;
 }

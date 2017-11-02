@@ -77,6 +77,8 @@ function rankUpdate(selectAnswer) {
     newPosition = positionValue + 7.5;
     $('#top-marker').css("bottom", newPosition+'px');
     $('.displayValueUP').css("color", "green");
+    $('#scientist .textLeft').html("You are doing great!");
+    $('#scientist .textRight').html("Fantastic!!");
   } else {
     newGame.player1.rankDown();
     if(newGame.player1.ranking % 1 == 0){
@@ -84,8 +86,9 @@ function rankUpdate(selectAnswer) {
       $('#top-marker').css("bottom", newPosition+'px');
     }
     $('.displayValueUP').css("color", "red");
+    $('#scientist .textLeft').html("Mmm... it was "+questions[newGame.indexRandom].respuesta[0]);
+    $('#scientist .textRight').html("Mmm... it was "+questions[newGame.indexRandom].respuesta[0]);
   }
-  // $('#top-marker').css("bottom", newPosition+'px');
 }
 
 
