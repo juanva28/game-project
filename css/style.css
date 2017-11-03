@@ -6,9 +6,11 @@
   background-repeat: no-repeat;
   position: relative;
   margin-top: 50px;
-  margin-left: 220px;
+  margin-left: 140px;
   border-radius: 10px;
   border: 6px solid grey;
+  position: relative;
+  z-index: 10;
 }
 .vanish{
   display:none;
@@ -25,4 +27,27 @@
   color: rgb(20, 120, 0);
   font-family: courier;
   font-size: 18px;
+}
+
+#gameOver{
+  width: 600px;
+  left: 340px;
+  color: black;
+  font-family: courier;
+  padding-top: 60px;
+  text-align: center;
+  background-color: pink;
+  height:300px;
+  position: absolute;
+  z-index: 1;
+  border: 6px solid rgb(79,79,81);
+  bottom: 300px;
+  border-radius: 10px;
+  background-image: url(../lib/gameover1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: none;
+}
+.gotitle{
+  font-size: 80px;
 }

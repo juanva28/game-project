@@ -17,11 +17,11 @@
 
   <div class="gameIntro row">
     <div id="padre" class="col-sm-6 section1">
-      <div class="pregunta">
+      <div id="part" class="pregunta">
         <p id="question">"PREGUNTA"
           <p>
       </div>
-      <div class="section2">
+      <div id="part1" class="section2">
         <button id="1" type="button" class="btn" name="button">"RESPUESTA 1"</button>
         <button id="2" type="button" class="btn" name="button">"RESPUESTA 2"</button>
         <button id="3" type="button" class="btn" name="button">"RESPUESTA 3"</button>
@@ -33,7 +33,7 @@
         <div class="textRight">Well done!</div>
       </div>
     </div>
-    <div class="col-sm-6">
+    <div id="part2" class="col-sm-6">
       <div id="contador">
         <div class="nivel"></div>
         <div class="nivel"></div>
@@ -99,6 +99,11 @@
         <p id="counter">Questions Left: <span id="countDown">""<span></p>
       </div>
     </div>
+
+    <div id="gameOver">
+      <h1 class="gotitle">GAME OVER</h1>
+      <h3>You are broke...<h3>
+    <div>
 
       <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
       <script src='https://cdn.jsdelivr.net/g/lodash@4(lodash.min.js+lodash.fp.min.js)'></script>

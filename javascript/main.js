@@ -71,7 +71,7 @@ questionFactory();
 function rankUpdate(selectAnswer) {
   var position = $('#top-marker').css("bottom");
   var positionValue = parseInt(position.substring(0,position.length-2));
-  var newPosition = 90;
+  var newPosition = 95;
   if (newGame.questionGenerated.selectAnswer(selectAnswer) == true) {
     newGame.player1.rankUp();
     newPosition = positionValue + 7.5;
@@ -100,9 +100,14 @@ $('.btn').click(function() {
   scientist.stopAndTalk();
   questionFactory();
   if (newGame.questionSelected.length >= questions.length) {
-    alert("YOU LOST!");
+    // alert("YOU LOST!");
+    $('#scientist .textLeft').html("You suck...Im out!");
+    $('#part2').css("display", "none");
+    $('#part1').css("display", "none");
+    $('#part').css("display", "none");
+    $('#gameOver').css("display", "inherit");
   }
-  if (newGame.player1.value() > 1 / (coins[38].value)) {
+  if (newGame.player1.value() > ( 1/(coins[38].value))) {
     alert("YOU WON");
   }
 });

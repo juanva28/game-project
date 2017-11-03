@@ -41,12 +41,12 @@ var coins = [
 ];
 
 var questions = [
-{pregunta:"Which cryptocurrency is cheaper?", respuesta: ["Litecoin", "Dash", "Etherum"]},
+{pregunta:"Which cryptocurrency is cheapest?", respuesta: ["Litecoin", "Dash", "Etherum"]},
 {pregunta:"Which cryptocurrency is the most expensive?", respuesta:["Ethereum", "Dash", "Ripple"]},
 {pregunta:"The first cryptocurrency was:", respuesta:["Bitcoin", "Ethereum", "Litecoin"]},
 {pregunta:"How much was 1 Bitcoin worth in Jan 2016 (today is close to $6000)", respuesta:["$433", "$890", "$2452"]},
 {pregunta:"Which economy grew more in 2016?", respuesta:["India's", "China's", "USA" ]},
-{pregunta:"The Asian experienced the largest economic growth? (+9.00% of GDP)", respuesta:["Turkmenistan", "Butane", "China" ]},
+{pregunta:"Which Asian country experienced the largest economic growth? (+9.00% of GDP)", respuesta:["Turkmenistan", "Butane", "China" ]},
 {pregunta:"The world economy that grew the most in 2106 (with +10.09% rise in GDP) was:", respuesta:["Iraq", "China", "Tanzania"]},
 {pregunta:"Which currency has the highest value?", respuesta:["Colombian Peso", "Korean Won", "Indonesian Rupi" ]},
 {pregunta:"Which currency is the cheapest?", respuesta:["Russian Ruble", "Argentinian Peso", "Malassian Ringgit"]},
@@ -57,7 +57,14 @@ var questions = [
 {pregunta:"Which currency has the highest value?", respuesta:["Canadian Dollar", "Singapore Dollar", "Brasilian Real" ]},
 {pregunta:"Which country has the most expensive currency in the world?", respuesta:["Kuwait", "Germany", "UK" ]},
 {pregunta:"Which country has the highest robot density in the world?", respuesta:["South Korea", "Japan", "Germany" ]},
-{pregunta:"The beauty of me, is tha im very rich. Who said this?", respuesta:["Trump", "Jeff Bezos", "Putin" ]},
-{pregunta:"Apple's market cap is?", respuesta:["756 billion", "1 trillion", "560 billion" ]}
-
- ];
+{pregunta:"The beauty of me, is that im very rich. Who said this?", respuesta:["Trump", "Jeff Bezos", "Putin" ]},
+{pregunta:"Apple's market cap is?", respuesta:["756 billion", "1 trillion", "560 billion" ]},
+{pregunta:"Which currency is the cheapest?", respuesta:["US Dollar", "Swiss Franc", "Euro" ]},
+{pregunta:"Which currency is the cheapest?", respuesta:["Turkish Lira", "Newzeland Dollar", "Lithuanian Litas" ]},
+{pregunta:"The avarege annual salary of a programer/developer at Amazon is:", respuesta:["$107,000", "40,000", "$350,000" ]},
+{pregunta:"Which currency has the highest value?", respuesta:["Yuan", "Yen", "Won" ]},
+{pregunta:"Which of these companies is not owned by Elon Musk?", respuesta:["TransX", "SolarCity", "SpaceX" ]},
+{pregunta:"Approximately, what % of start-ups succeed in SV?", respuesta:["<30%", "<20%", "<10%" ]},
+{pregunta:"Which country has the world's highest GDP per capita?", respuesta:["Liechtenstein", "Qatar", "Monaco" ]},
+{pregunta:"Which country has teh world's lowest income inequality?", respuesta:["Ukraine", "Slovenia", "Norway" ]}
+];
